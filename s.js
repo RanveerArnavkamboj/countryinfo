@@ -13,7 +13,7 @@ async function getdetails() {
     dataarray = data[1];
   } catch (err) {
     console.log("error found to load countries : ", err)
-  }
+  } 
 }
 getdetails();
 function showdetails() {
